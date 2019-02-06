@@ -1,4 +1,4 @@
-program ModosMovie
+program AlamoMovie
 
     use pbl_met
     
@@ -14,7 +14,7 @@ program ModosMovie
     
     ! Get parameters
     if(command_argument_count() /= 2) then
-        print *, "mm - Movie maker for MODOS model"
+        print *, "mm - Movie maker for ALAMO model"
         print *
         print *, "Usage:"
         print *
@@ -29,4 +29,4 @@ program ModosMovie
     call get_command_argument(1, sMovieListName)
     call get_command_argument(1, sOutImagesPath)
 
-end program ModosMovie
+end program AlamoMovie
